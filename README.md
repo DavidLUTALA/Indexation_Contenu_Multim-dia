@@ -53,7 +53,7 @@ indexation-sift-dhash/
 
 ```bash
 git clone https://github.com/DavidLUTALA/Indexation_Contenu_Multim-dia.git
-cd indexation-sift-dhash
+cd Indexation_Contenu_Multim-dia
 ```
 
 ### 2️⃣ Créer un environnement virtuel (recommandé)
