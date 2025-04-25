@@ -31,33 +31,33 @@ Ce système permet de :
 
 ## ⚙️ Installation et exécution
 
-### 1. Cloner le dépôt
+### 1️⃣ Cloner le dépôt
 
 ```bash
 git clone https://github.com/votre_utilisateur/indexation-sift-dhash.git
 cd indexation-sift-dhash
+```
 
-
-### 2. Créer un environnement virtuel (recommandé)
+### 2️⃣ Créer un environnement virtuel (recommandé)
 ```bash
 python -m venv env
 
 # Pour Windows
 ```bash
 env\Scripts\activate
-
+```
 # Pour Linux/macOS
 ```bash
 source env/bin/activate
-
-### 3. Installer les dépendances
+```
+### 3️⃣ Installer les dépendances
 ```bash
 pip install -r requirements.txt
-
-### 4. Lancer l'application sur Streamlit
+```
+### 4️⃣ Lancer l'application sur Streamlit
 ```bash
 streamlit run TpIndexation_Groupe3.py
-
+```
 
 ## 🔍 Exemple d’utilisation
 
