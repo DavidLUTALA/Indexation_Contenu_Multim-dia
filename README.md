@@ -92,7 +92,7 @@ streamlit run TpIndexation_Groupe3.py
 *Document reconnu*
 
 
-🧪 Auteurs
+## 👥 Auteurs
 👨‍💻 LUTALA LUSHULI David, davidlutala0@gmail.com
 
 👨‍💻 NZAZI NGABILA Boaz, nzaziboaz@gmail.com
