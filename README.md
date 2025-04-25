@@ -29,6 +29,21 @@ Ce système permet de :
 7. **Localisation de la zone de texte dans l’image via estimation d’homographie**
 8. **Affichage des résultats avec les hash et visualisation encadrée**
 
+
+## ⚙️ Structure des données
+
+
+```bash
+indexation-sift-dhash/
+├── images/              # Base d'images (documents)
+├── requetes/            # Vidéos de test .mp4
+├── captures/            # Captures d'écran pour README
+├── TpIndexation_Groupe3.py   # Code Streamlit principal
+├── requirements.txt
+└── README.md
+```
+
+
 ## ⚙️ Installation et exécution
 
 ### 1️⃣ Cloner le dépôt
