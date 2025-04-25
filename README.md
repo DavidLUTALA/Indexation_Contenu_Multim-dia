@@ -4,6 +4,9 @@
 Ce projet présente une application permettant de rechercher automatiquement un document à partir d’une vidéo contenant une portion de texte de ce document(image).  
 L’approche repose sur la combinaison des descripteurs SIFT (pour la robustesse aux transformations) et d’un hachage perceptuel (dHash) pour un filtrage rapide.
 
+
+![Alt text](captures/1.png)
+
 ## 🎯 Objectif
 Ce système permet de :
 - Extraire une frame d’une vidéo contenant un document.
