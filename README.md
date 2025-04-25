@@ -1,18 +1,18 @@
 # Indexation_Contenu_Multim-dia
 # 📄🔍 Système d'Indexation de Documents par SIFT + dHash
 
-Ce projet présente une application Streamlit permettant d’identifier automatiquement un document à partir d’une vidéo contenant une portion de texte.  
+Ce projet présente une application permettant de rechercher automatiquement un document à partir d’une vidéo contenant une portion de texte de ce document(image).  
 L’approche repose sur la combinaison des descripteurs SIFT (pour la robustesse aux transformations) et d’un hachage perceptuel (dHash) pour un filtrage rapide.
 
 ## 🎯 Objectif
-
+Ce système permet de :
 - Extraire une frame d’une vidéo contenant un document.
 - Identifier automatiquement le document correspondant dans une base d’images.
 - Localiser précisément la zone du texte détecté dans l’image reconnue.
 
 ## 🧠 Technologies utilisées
 
-- **Python**
+- **Python** : Comme  langage de programmation pour coder le système.
 - **OpenCV** : pour le traitement d’images et l’extraction des keypoints/descripteurs SIFT.
 - **dHash (difference hashing)** : pour l’indexation rapide des images par similarité visuelle.
 - **Streamlit** : pour une interface web interactive, simple et efficace.
@@ -28,6 +28,36 @@ L’approche repose sur la combinaison des descripteurs SIFT (pour la robustesse
 6. **Identification du meilleur document par nombre de bons matchs**
 7. **Localisation de la zone de texte dans l’image via estimation d’homographie**
 8. **Affichage des résultats avec les hash et visualisation encadrée**
+
+## ⚙️ Installation et exécution
+
+### 1. Cloner le dépôt
+
+```bash
+git clone https://github.com/votre_utilisateur/indexation-sift-dhash.git
+cd indexation-sift-dhash
+
+
+### 2. Créer un environnement virtuel (recommandé)
+```bash
+python -m venv env
+
+# Pour Windows
+```bash
+env\Scripts\activate
+
+# Pour Linux/macOS
+```bash
+source env/bin/activate
+
+### 3. Installer les dépendances
+```bash
+pip install -r requirements.txt
+
+### 4. Lancer l'application sur Streamlit
+```bash
+streamlit run TpIndexation_Groupe3.py
+
 
 ## 🔍 Exemple d’utilisation
 
