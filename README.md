@@ -80,13 +80,15 @@ streamlit run TpIndexation_Groupe3.py
 ## 🔍 Exemple d’utilisation
 
 ![Alt text](captures/1.png)
-*Frame extraite de la vidéo avec détection SIFT*
+*Page d'accueil*
 
 ![Alt text](captures/2.png)
-*Document correspondant reconnu*
+
+*Frame extraite*
 
 ![Alt text](captures/3.png)
-*Zone de texte localisée dans l’image document*
+
+*Document reconnu*
 
 
 🧪 Auteurs
