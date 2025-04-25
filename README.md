@@ -5,7 +5,7 @@ Ce projet présente une application permettant de rechercher automatiquement un 
 L’approche repose sur la combinaison des descripteurs SIFT (pour la robustesse aux transformations) et d’un hachage perceptuel (dHash) pour un filtrage rapide.
 
 
-![Alt text](captures/1.png)
+![Alt text](captures/4.png)
 
 ## 🎯 Objectif
 Ce système permet de :
@@ -79,13 +79,13 @@ streamlit run TpIndexation_Groupe3.py
 
 ## 🔍 Exemple d’utilisation
 
-![Frame extraite](./images/frame_extrait.png)
+![Alt text](captures/1.png)
 *Frame extraite de la vidéo avec détection SIFT*
 
-![Document reconnu](./images/document_reconnu.png)
+![Alt text](captures/2.png)
 *Document correspondant reconnu*
 
-![Localisation du texte](./images/zone_localisee.png)
+![Alt text](captures/3.png)
 *Zone de texte localisée dans l’image document*
 
 
