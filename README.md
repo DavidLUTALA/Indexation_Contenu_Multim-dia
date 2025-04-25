@@ -41,7 +41,7 @@ cd indexation-sift-dhash
 ### 2️⃣ Créer un environnement virtuel (recommandé)
 ```bash
 python -m venv env
-
+```
 # Pour Windows
 ```bash
 env\Scripts\activate
