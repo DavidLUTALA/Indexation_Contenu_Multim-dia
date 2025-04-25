@@ -13,7 +13,7 @@ Ce système permet de :
 - Identifier automatiquement le document correspondant dans une base d’images.
 - Localiser précisément la zone du texte détecté dans l’image reconnue.
 
-## 🧠 Technologies utilisées
+## 🤖 Technologies utilisées
 
 - **Python** : Comme  langage de programmation pour coder le système.
 - **OpenCV** : pour le traitement d’images et l’extraction des keypoints/descripteurs SIFT.
@@ -47,7 +47,7 @@ indexation-sift-dhash/
 ```
 
 
-## ⚙️ Installation et exécution
+## 🚀 Installation et exécution
 
 ### 1️⃣ Cloner le dépôt
 
